@@ -1,4 +1,6 @@
 import s from "./traditions.module.css";
+// import garden from "./garden.mp4";
+import garden from "./deskkkk.mp4";
 
 const Traditions = () => {
   return (
@@ -24,7 +26,12 @@ const Traditions = () => {
             природу та її неповторні створіння.
           </p>
         </div>
-        <div className="gif">ЗДЕСЬ БУДЕТ ГИФ</div>
+        <div className={s.gif}>
+          <video width="100%" preload="auto" muted autoPlay loop>
+            <source src={garden} type="video/mp4" />
+            Ваш браузер не підтримує відео.
+          </video>
+        </div>
       </div>
     </section>
   );

@@ -5,6 +5,8 @@ import Header from "./components/header/header";
 
 import Plants from "./pages/Plants";
 import Home from "./pages/Home";
+import Protection from "./pages/Protection";
+import Gallery from "./pages/Gallery";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/plants" element={<Plants />} />
+        <Route path="/protection" element={<Protection />} />
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
       <Footer />
     </Router>

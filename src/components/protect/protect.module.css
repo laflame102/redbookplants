@@ -1,0 +1,30 @@
+.wrapper {
+  width: 100%;
+  /* height: 650px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9addbb;
+
+  padding-top: 150px;
+  padding-bottom: 50px;
+}
+
+.container {
+  width: var(--container-width);
+
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  gap: 70px;
+}
+
+.text {
+  font-size: 1.4rem;
+  color: #333;
+  text-align: center;
+  line-height: 1.5;
+  max-width: 900px;
+}

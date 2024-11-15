@@ -29,11 +29,6 @@ const Header = () => {
                 </Link>
               </li>
               <li className={s.listItem}>
-                <Link to="/habitats" className={s.listItemText}>
-                  Середовища існування
-                </Link>
-              </li>
-              <li className={s.listItem}>
                 <Link to="/gallery" className={s.listItemText}>
                   Галерея
                 </Link>

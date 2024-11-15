@@ -1,4 +1,14 @@
 import s from "./plant.module.css";
+import one from "../../images/ten/1.png";
+import two from "../../images/ten/2.png";
+import three from "../../images/ten/3.png";
+import four from "../../images/ten/4.png";
+import five from "../../images/ten/5.png";
+import six from "../../images/ten/6.png";
+import seven from "../../images/ten/7.png";
+import eight from "../../images/ten/8.png";
+import nine from "../../images/ten/9.png";
+import ten from "../../images/logokvitka-removebg-preview.png";
 
 const Plant = () => {
   return (
@@ -6,11 +16,7 @@ const Plant = () => {
       <div className={s.container}>
         <div className={s.container}>
           <div className={s.textWithImage}>
-            <img
-              src="path/to/your/placeholder-image.jpg"
-              alt="Description"
-              className={s.leftImage}
-            />
+            <img src={one} alt="Description" className={s.leftImage} />
             <h3 className={s.name}>Рослина 1: Лілія лісова</h3>
             <p>
               Лілія лісова (Lilium martagon) — це багаторічна рослина, що
@@ -23,11 +29,7 @@ const Plant = () => {
             </p>
           </div>
           <div className={s.textWithImage}>
-            <img
-              src="path/to/your/placeholder-image.jpg"
-              alt="Description"
-              className={s.rightImage}
-            />
+            <img src={two} alt="Description" className={s.rightImage} />
             <h3 className={s.name}>Рослина 2: Орхідейка</h3>
             <p>
               Орхідейка (Epipactis helleborine) — європейський вид орхідей, який
@@ -39,11 +41,7 @@ const Plant = () => {
             </p>
           </div>
           <div className={s.textWithImage}>
-            <img
-              src="path/to/your/placeholder-image.jpg"
-              alt="Description"
-              className={s.leftImage}
-            />
+            <img src={three} alt="Description" className={s.leftImage} />
             <h3 className={s.name}>Рослина 3: Водяний горіх</h3>
             <p>
               Водяний горіх (Trapa natans) — водна рослина, яка росте у озерах і
@@ -54,11 +52,7 @@ const Plant = () => {
             </p>
           </div>
           <div className={s.textWithImage}>
-            <img
-              src="path/to/your/placeholder-image.jpg"
-              alt="Description"
-              className={s.rightImage}
-            />
+            <img src={four} alt="Description" className={s.rightImage} />
             <h3 className={s.name}>Рослина 4: Черевіця</h3>
             <p>
               Черевіця (Aconitum lycoctonum) — отруйна рослина, яка зростає на
@@ -69,11 +63,7 @@ const Plant = () => {
             </p>
           </div>
           <div className={s.textWithImage}>
-            <img
-              src="path/to/your/placeholder-image.jpg"
-              alt="Description"
-              className={s.leftImage}
-            />
+            <img src={five} alt="Description" className={s.leftImage} />
             <h3 className={s.name}>Рослина 5: Латаття</h3>
             <p>
               Латаття (Nymphaea alba) — це водна рослина, що росте в тихих
@@ -84,11 +74,7 @@ const Plant = () => {
             </p>
           </div>
           <div className={s.textWithImage}>
-            <img
-              src="path/to/your/placeholder-image.jpg"
-              alt="Description"
-              className={s.rightImage}
-            />
+            <img src={six} alt="Description" className={s.rightImage} />
             <h3 className={s.name}>Рослина 6: Гречка дика</h3>
             <p>
               Гречка дика (Fagopyrum esculentum) — багаторічна рослина, що росте
@@ -99,11 +85,7 @@ const Plant = () => {
             </p>
           </div>
           <div className={s.textWithImage}>
-            <img
-              src="path/to/your/placeholder-image.jpg"
-              alt="Description"
-              className={s.leftImage}
-            />
+            <img src={seven} alt="Description" className={s.leftImage} />
             <h3 className={s.name}>Рослина 7: Ластівник</h3>
             <p>
               Ластівник (Asplenium scolopendrium) — рідкісна папороть, що росте
@@ -113,11 +95,7 @@ const Plant = () => {
             </p>
           </div>
           <div className={s.textWithImage}>
-            <img
-              src="path/to/your/placeholder-image.jpg"
-              alt="Description"
-              className={s.rightImage}
-            />
+            <img src={eight} alt="Description" className={s.rightImage} />
             <h3 className={s.name}>Рослина 8: Боровик</h3>
             <p>
               Боровик (Boletus edulis) — гриб, що росте в лісах Вінниччини. Це
@@ -127,11 +105,7 @@ const Plant = () => {
             </p>
           </div>
           <div className={s.textWithImage}>
-            <img
-              src="path/to/your/placeholder-image.jpg"
-              alt="Description"
-              className={s.leftImage}
-            />
+            <img src={nine} alt="Description" className={s.leftImage} />
             <h3 className={s.name}>Рослина 9: Трава котячі лапки</h3>
             <p>
               Трава котячі лапки (Antennaria dioica) — рослина, що росте в сухих
@@ -141,11 +115,7 @@ const Plant = () => {
             </p>
           </div>
           <div className={s.textWithImage}>
-            <img
-              src="path/to/your/placeholder-image.jpg"
-              alt="Description"
-              className={s.rightImage}
-            />
+            <img src={ten} alt="Description" className={s.rightImage} />
             <h3 className={s.name}>Рослина 10: Золотарник</h3>
             <p>
               Золотарник (Solidago virgaurea) — рідкісна рослина, що
